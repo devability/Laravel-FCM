@@ -82,6 +82,20 @@ Indicates notification icon. example : Sets value to myicon for drawable resourc
 #### Arguments
 * $icon **String**
 
+### setImage
+
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setImage(String $image)
+
+Supported Android
+Indicates notification image. example : Sets value to myimage for drawable resource myimage.
+
+
+
+* Visibility: **public**
+
+
+#### Arguments
+* $image **String**
 
 
 ### setSound
